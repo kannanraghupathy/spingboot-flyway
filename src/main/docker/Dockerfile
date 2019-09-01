@@ -1,5 +1,5 @@
 FROM java:8
-MAINTAINER altfatterz@gmail.com
+MAINTAINER kannanraghupathy@gmail.com
 ENV SPRING_PROFILES_ACTIVE docker
 VOLUME /tmp
 ADD spring-boot-flyway-0.0.1-SNAPSHOT.jar app.jar

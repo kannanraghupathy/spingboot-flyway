@@ -1,5 +1,5 @@
 FROM postgres:9.5.1
-MAINTAINER altfatterz@gmail.com
+MAINTAINER kannanraghupathy@gmail.com
 ENV POSTGRES_USER docker
 ENV POSTGRES_DB mydb
 COPY 1_schema.sql /docker-entrypoint-initdb.d/
